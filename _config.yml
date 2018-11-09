@@ -96,23 +96,23 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: hhdy
-    repo: blog-comments
+    owner: 
+    repo: 
     oauth:
-        client_id: 5d3c691d2add5afc5824
-        client_secret: 1a902a29f37057e5f5d81a65f3f0b3fd17c671a4
+        client_id: 
+        client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: hhdy
-    repo: blog-comments
-    clientID: 5d3c691d2add5afc5824
-    clientSecret: 1a902a29f37057e5f5d81a65f3f0b3fd17c671a4
+    owner: 
+    repo: 
+    clientID: 
+    clientSecret: 
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false
 
 # ---------------- #
 #    Analytics     #
 # ---------------- #
 # 下面的百度分析ID请换成你自己的 !!!!
 baidu:
-    analytics_id: f9a2a52ccc103ed91088462c5836c854
+    analytics_id: 
