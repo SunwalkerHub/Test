@@ -1,0 +1,118 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://sunwalkerhub.github.io/
+date_format: "ordinal"
+title: hhdy
+subtitle: "商丘学院电子开发协会"
+description: "侯智峰的个人博客"
+keywords: 商丘学院电子开发协会, hhdy
+timezone: China/ShangQiu
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: hhdy
+organization: zhihu.com
+organization_url: https://www.zhihu.com/people/day-wo-shi-hong-ling-jin/activities
+github_username: SunwalkerHub
+location: ShangQiu, China
+email: 1871117568@qq.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+  -
+    href: /categories/
+    label: 分类
+  -
+    href: /project/
+    label: 项目
+  -
+    href: /resourse/
+    label: 资源
+  -
+    href: /reading/
+    label: 阅读
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    reading:
+        output: true
+        permalink: /reading/:path/
+    life:
+        output: true
+        permalink: /life:/:path/
+    project:
+        output: true
+        permalink: /project:/:path/
+
+repository: SunwalkerHub/SunwalkerHub.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: hhdy
+    repo: blog-comments
+    oauth:
+        client_id: 5d3c691d2add5afc5824
+        client_secret: 1a902a29f37057e5f5d81a65f3f0b3fd17c671a4
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: kevinlq
+    repo: blog-comments
+    clientID: 5d3c691d2add5afc5824
+    clientSecret: 1a902a29f37057e5f5d81a65f3f0b3fd17c671a4
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : true
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+# 下面的百度分析ID请换成你自己的 !!!!
+baidu:
+    analytics_id: f9a2a52ccc103ed91088462c5836c854
