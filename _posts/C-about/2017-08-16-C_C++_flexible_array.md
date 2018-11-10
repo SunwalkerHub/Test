@@ -38,7 +38,7 @@ int main(int argc,char *argvp[] )
 
 输出结果:
 
-myStruct：4
+`myStruct：4`
 
 可以看到大小为4，只有成员变量length大大小，array不占用结构体的空间。
 
